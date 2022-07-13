@@ -1,0 +1,380 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Google Font (Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <title>Softwares</title>
+</head>
+
+<body class="bg-light">
+    <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar-->
+        <div class="border-end bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading border-bottom bg-light fw-bold" id="passwords">Softwares</div>
+            <div class="list-group list-group-flush" id="myTab" role="tablist">
+
+
+                <div class="nav flex-column nav-pills me-3 ms-3 mt-3" id="v-pills-tab" role="tablist"
+                    aria-orientation="vertical">
+
+                    <button class="nav-link active text-start text-dark" id="v-pills-dashboard-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-dashboard" type="button" role="tab" aria-controls="v-pills-dashboard"
+                        aria-selected="true"><i class="fa-solid fa-display"></i> Softwares</button>
+
+                    <button class="nav-link text-start text-dark" id="v-pills-save-password-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-save-password" type="button" role="tab"
+                        aria-controls="v-pills-save-password" aria-selected="false"><i class="fa-solid fa-laptop-code"></i>
+                        Develop</button>
+
+                    <button class="nav-link text-start text-dark" id="v-pills-generate-password-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-generate-password" type="button" role="tab"
+                        aria-controls="v-pills-generate-password" aria-selected="false"><i class="fa-solid fa-gamepad"></i>
+                        Gaming</button>
+
+                    <button class="nav-link text-start text-dark" id="v-pills-settings-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                        aria-selected="false"><i class="fa-solid fa-align-right"></i> More</button>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- Page content wrapper-->
+        <div id="page-content-wrapper">
+            <!-- Top navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <div class="container-fluid">
+                    <button class="btn border" id="sidebarToggle"><i
+                            class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation"><span
+                            class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                            <li class="nav-item active"><a class="nav-link text-dark" href="https://github.com/iamironman-00" target="_blank"><i class="fa-brands fa-github"></i>
+                                    Github</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Page content-->
+            <div class="container-fluid">
+
+
+                <div class="tab-content" id="v-pills-tabContent">
+
+
+                    <div class="tab-pane fade show active" id="v-pills-dashboard" role="tabpanel"
+                        aria-labelledby="v-pills-dashboard-tab">
+                        
+                        <div class="container mt-5">
+
+                            <h1 class="text-center mt-3 fw-bold">Browser</h1>
+                            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/software/chrome.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Chrome</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://www.google.com/chrome/" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/software/firefox.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Firefox</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/software/brave.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Brave</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://brave.com/download/" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/software/tor.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Tor Browser</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://www.torproject.org/download/" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="mt-5">
+
+                            <h1 class="text-center mt-3 fw-bold">Photo & Video Editing</h1>
+                            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/software/photoshop.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Adobe PhotoShop</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="#!" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/software/illustrator.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Adobe Illustrator</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="#!" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/software/premierepro.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Adobe Premiere Pro</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="#!" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/software/aftereffect.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Adobe After Effect</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="#!" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/gaming/obsstudio.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">OBS Studio</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://obsproject.com/download" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/gaming/voicemod.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Voice Mod</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://www.voicemod.net/" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                    
+                    <div class="tab-pane fade" id="v-pills-save-password" role="tabpanel"
+                        aria-labelledby="v-pills-save-password-tab">
+
+                        <div class="container mt-5">
+
+                            <h1 class="text-center mt-3 fw-bold">Develop Tools</h1>
+                            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/coding/visualstudio.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Visual Studio</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://code.visualstudio.com/download" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/coding/sublimetext.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sublime Text</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://www.sublimetext.com/download" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/coding/python.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Python</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://www.python.org/downloads/" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/coding/microsoftpowertoys.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Microsoft PowerToys</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="tab-pane fade" id="v-pills-generate-password" role="tabpanel"
+                        aria-labelledby="v-pills-generate-password-tab">
+                        
+                        <div class="container mt-5">
+
+                            <h1 class="text-center mt-3 fw-bold">Gaming</h1>
+                            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/gaming/discord.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Discord</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://discord.com/download" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/gaming/steam.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Steam</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://store.steampowered.com/about/" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/gaming/rockstargames.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Rockstar Games</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://socialclub.rockstargames.com/rockstar-games-launcher" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/gaming/epicgames.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Epic Games</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://store.epicgames.com/en-US/download" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/gaming/battelnet.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">BattleNet</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://www.blizzard.com/en-us/apps/battle.net/desktop" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">
+                        
+                        <div class="container mt-5">
+
+                            <h1 class="text-center mt-3 fw-bold">More...</h1>
+                            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                                <div class="col card-width">
+                                    <div class="card h-100 text-center shadow">
+                                        <img src="icon/more/livelywallpaper.png" class="card-img-top mt-3" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lively Wallpaper</h5>
+                                        </div>
+                                        <div class="card-footer border-secondary"><a href="https://rocksdanister.github.io/lively/" target="_blank" class="btn"><i class="fa-solid fa-download"></i> Download</a></div>
+                                    </div>
+                                </div>
+
+                        </div>
+
+                        <hr class="mt-5">
+                        <h1 class="text-center mt-3 fw-bold">Websites</h1>
+                        <ol class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold fs-4">Developer Sites</div>
+                                    <ol>
+                                        <li><a href="https://stackoverflow.com/" target="_blank">Stackoverflow</a></li>
+                                        <li><a href="https://www.digitalocean.com/community/tutorials" target="_blank">Digitalocean</a></li>
+                                        <li><a href="https://inloop.github.io/sqlite-viewer/" target="_blank">Sqlite-Viewer</a></li>
+                                        <li><a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank">Bootstrap5</a></li>
+                                        <li><a href="https://bulma.io/documentation/" target="_blank">Bulma</a></li>
+                                        <li><a href="https://icons8.com/" target="_blank">Icons8</a></li>
+                                        <li><a href="https://docs.djangoproject.com/en/4.0/" target="_blank">Django</a></li>
+                                        <li><a href="https://pypi.org/" target="_blank">PyPi</a></li>
+                                        <li><a href="https://elzero.org/" target="_blank">Elzero</a></li>
+                                        <li><a href="https://codepen.io/" target="_blank">Codepen</a></li>
+                                        <li><a href="https://github.com/" target="_blank">Github</a></li>
+                                        <li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a></li>
+                                        <li><a href="https://realpython.com/" target="_blank">Realpython</a></li>
+                                        <li><a href="https://www.programiz.com/" target="_blank">Programiz</a></li>
+                                        <li><a href="https://www.geeksforgeeks.org/" target="_blank">Geeksforgeeks</a></li>
+                                        <li><a href="https://www.w3schools.com/" target="_blank">W3schools</a></li>
+                                        <li><a href="https://www.learnpython.org/" target="_blank">Learnpython</a></li>
+                                        <li><a href="https://awesome-python.com/" target="_blank">Awesome Python</a></li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold fs-3">Other Sites</div>
+                                    <p>Soon</p>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome JS -->
+    <script src="js/all.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
